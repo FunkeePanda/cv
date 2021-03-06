@@ -42,6 +42,13 @@ a:visited{
   color: #e7e7de
 }
 
+hr{
+  border: 5px dotted grey;
+    border-style: none none dotted;
+    color: none;
+    background-color: #e7e7de;
+    width: 30%
+}
 .top-container{
   background-color: #00587a;
   position: relative;
