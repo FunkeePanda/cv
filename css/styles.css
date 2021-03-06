@@ -1,0 +1,138 @@
+div {
+  background-color: #e7e7de;
+  margin-top: 0px;
+
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /* background-color: #e7e7de; */
+
+}
+
+h1 {
+  margin: 50px auto 0 auto ;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 5.625rem;
+  color: #008891;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #008891;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #00587a;
+
+}
+
+a {
+  text-color: #0f3057;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 15px;
+}
+
+a:visited{
+  color: #e7e7de
+}
+
+.top-container{
+  background-color: #00587a;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #e7e7de;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.bottom-container{
+  background-color: #008891;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  text-align: center;
+
+}
+
+.top-cloud {
+  position: absolute;
+  left: 1070px;
+  top: 50px;
+  text-align: center;
+}
+
+.robotnik{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.sonic-sub{
+  font-weight: normal;
+}
+
+.goofy-sonic {
+  width: 17%;
+  float: left;
+  margin-right: 30px
+}
+
+.skill-row {
+  width: 50%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.BUTTON_DMG {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #E7E7DE;
+   font-family: Georgia;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 11px;
+   background-color: #008891;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_DMG:hover {
+   border: solid #0059A0 0;
+   background: #E7E7DE;
+   background-image: -webkit-linear-gradient(top, #E7E7DE, #008891);
+   background-image: -moz-linear-gradient(top, #E7E7DE, #008891);
+   background-image: -ms-linear-gradient(top, #E7E7DE, #008891);
+   background-image: -o-linear-gradient(top, #E7E7DE, #008891);
+   background-image: -webkit-gradient(to bottom, #E7E7DE, #008891);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container p{
+  color: #0f3057
+}
+/* .skill-row p, h3 {
+  text-align: left;
+} */
